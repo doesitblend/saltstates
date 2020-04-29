@@ -3,4 +3,8 @@ import salt.config
 
 
 def mytestfunc():
-    return True
+    '''
+    This is loaded from prod
+    '''
+    msg = "Some valid changes to production environment"
+    return {'retcode': 0, 'comments': msg}
