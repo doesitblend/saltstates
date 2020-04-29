@@ -1,3 +1,3 @@
 install vim enhanced:
   pkg.installed:
-    - vim-enhanced
+    - name: vim-enhanced
