@@ -1,5 +1,5 @@
 base:
-  'I@role:prod':
+  '*':
     - example_state
-  'I@role:dev':
+  'master1':
     - example_state2
