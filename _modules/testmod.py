@@ -2,6 +2,9 @@ import salt
 import salt.config
 
 
+__virtualname__ = "mytestmod"
+
+
 def mytestfunc():
     '''
     This is loaded from prod
