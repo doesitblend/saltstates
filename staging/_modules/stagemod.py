@@ -2,7 +2,7 @@ import salt
 import salt.config
 
 
-__virtualname__ == "testmod"
+__virtualname__ = "testmod"
 
 
 def __virtual__():
