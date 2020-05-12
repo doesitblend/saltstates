@@ -17,3 +17,12 @@ def mytestfunc():
     '''
     msg = 'This is loaded from the master branch'
     return {'retcode': 0, 'comments': msg}
+
+def morefunc(myarg=None):
+    '''
+    Return the user value
+    '''
+    msg = myarg
+    if not msg:
+        msg = 'No argument provided'
+    return {'retcode': 0, 'comments': msg}
