@@ -3,7 +3,7 @@
 
 run this state:
   salt.state:
-    - sls: examples.checkme
+    - sls: customsync
     - saltenv: {{ saltenv }}
     - tgt: '*'
     - tgt_type: glob
