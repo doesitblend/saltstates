@@ -18,3 +18,4 @@ sync via exec module:
   salt.function:
     - name: saltutil.sync_all
     - saltenv: {{ saltenv }}
+    - tgt: '*'
