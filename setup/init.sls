@@ -23,6 +23,11 @@ add SSH key {{ file }}:
     - source: salt://{{ slspath }}/{{ file }}
     - user: root
     - group: root
+{% if file == 'github.pub' %}
+    - mode: 640
+{% else %}
+    - mode: 600
+{% endif %}
 
 {% endfor %}
 
