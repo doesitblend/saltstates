@@ -5,4 +5,6 @@
 sync environment modules:
   module.run:
     - name: saltutil.sync_modules
-      - saltenv: {{ saltenv }}
+    - saltenv: {{ saltenv }}
+    - refresh: True
+
