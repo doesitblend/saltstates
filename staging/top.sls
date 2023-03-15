@@ -4,13 +4,12 @@ base:
     - example_state2
 
 staging:
-  '2afb31cfa889':
+  'a69088ceb3f9':
     - example_state
     - example_state2
 
 prod:
-  'bd16b42503c8':
+  '0ef92eeabae3':
     - example3
-
 
 

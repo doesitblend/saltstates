@@ -3,3 +3,6 @@ new_node_setup:
     - tgt: {{ pillar['mytgt'] }}
     - highstate: True
     - saltenv: base
+
+
+
